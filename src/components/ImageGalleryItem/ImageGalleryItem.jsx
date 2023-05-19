@@ -3,7 +3,7 @@ import { GalleryImg, GalleryItem } from './ImageGalleryItem.styled';
 
 export const ImageGalleryItem = ({ item, onImageClick }) => {
   const { largeImageURL, tags, webformatURL } = item;
-  console.log(item.largeImageURL);
+  // console.log(item.largeImageURL);
   return (
     <GalleryItem>
       <GalleryImg
